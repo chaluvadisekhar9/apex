@@ -1,0 +1,137 @@
+html body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.marqueeText{
+    height: 1.5rem;
+    color: rgb(236, 236, 243);
+    font-size: 12px;
+    font-weight: 400;
+    padding: 2px;
+}
+.topMenu{
+    min-height: 2.5rem;
+    background-color: rgb(10, 7, 95);
+    font-size: 12px;
+}
+ul li :hover {
+    box-shadow: inset 0 0 0 50px #D80286;
+}
+.button_slide {
+    color: #FFF;
+    border-radius: 0px;
+    padding: 2px 2px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+  .logo_size{
+      height: 4rem;
+      width: 4.5rem;
+  }
+ 
+  
+.footer{
+    background-color: rgb(26, 26, 82);
+    color: white;
+    font-size: 14px;
+    padding: 1rem 3rem 1rem 3rem;
+}
+.socialMedia{
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+
+@media screen and (min-width: 100px) and (max-width: 575px) {
+    body {
+      font-size: 100%;
+      
+    }
+    h1 {
+      font-size: 1rem;
+    }
+    h2 {
+      font-size: 0.9rem;
+    }
+    h3 {
+      font-size: 0.8rem;
+    }
+    h4 {
+      font-size: 0.7rem;
+    }
+    h5 {
+      font-size: 0.6rem;
+    }
+    h6 {
+      font-size: 0.5rem;
+    }
+    p {
+      font-size: 0.7rem;
+      line-height: 0.8rem;
+    }
+    a {
+      font-size: 0.8rem;
+      line-height: 0.8rem;
+    }
+    .topMenuDisplay{
+      display: block;
+      background-color: rgb(247, 17, 9);
+
+    }
+    
+  }
+  
+  /* Small devices (landscape phones, less than 768px)*/
+  
+  @media screen and (min-width: 576px) and (max-width: 767px) {
+    body {
+      font-size: 100%;
+    }
+    
+  }
+  
+  /*Medium devices (tablets, less than 992px)*/
+  
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+      font-size: 100%;
+    }
+    h1 h2 h3 h4 h5 h6 p {
+      font-size: 80%;
+    }
+    h2 {
+      font-size: 80%;
+    }
+    h3 {
+      font-size: 80%;
+    }
+    h4 {
+      font-size: 80%;
+    }
+    h5 {
+      font-size: 80%;
+    }
+    h6 {
+      font-size: 80%;
+    }
+  }
+  
+  /* Large devices (desktops, less than 1200px) */
+  
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    body {
+      font-size: 100%;
+    }
+  }
+  
