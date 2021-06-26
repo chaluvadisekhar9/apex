@@ -1,0 +1,199 @@
+html body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(images/bgimg.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbarBgColor {
+    background-color: #224b8b;
+    color: white;
+}
+
+.navbar a:hover {
+    background-color: rgb(59, 92, 243);
+    border-radius: 7%;
+}
+
+.marqueeText {
+    color: rgb(250, 41, 187);
+    height: 1.6rem;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 2px;
+}
+
+.topMenu {
+    min-height: 1.6rem;
+    background-color: #497caf;
+    font-size: 10px;
+}
+
+.adminBtn {
+    min-height: 1.2rem;
+    font-size: 11px;
+    text-align: center;
+    float: right;
+}
+
+.logo_size {
+    height: 4rem;
+    width: 4.5rem;
+}
+
+.flexClass {
+    display: flex;
+}
+
+.footer {
+    background-color: #0c63b3;
+    color: white;
+    font-size: 14px;
+    padding: 1rem 3rem 1rem 3rem;
+}
+
+.socialMedia {
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+.whiteColor {
+    background-color: white;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 6vw;
+    height: 3vw;
+}
+
+
+/* Set the size of the div element that contains the map */
+
+#map {
+    height: 300px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+
+@media screen and (min-width: 100px) and (max-width: 575px) {
+    body {
+        font-size: 100%;
+    }
+    h1 {
+        font-size: 1rem;
+    }
+    h2 {
+        font-size: 0.9rem;
+    }
+    h3 {
+        font-size: 0.8rem;
+    }
+    h4 {
+        font-size: 0.7rem;
+    }
+    h5 {
+        font-size: 0.6rem;
+    }
+    h6 {
+        font-size: 0.5rem;
+    }
+    p {
+        font-size: 0.7rem;
+        line-height: 0.8rem;
+    }
+    a {
+        font-size: 0.8rem;
+        line-height: 0.8rem;
+    }
+    .topMenuDisplay {
+        display: block;
+        background-color: rgb(247, 17, 9);
+    }
+    .adminBtn {
+        float: left;
+        margin: 2%;
+    }
+    .flexClass {
+        padding-top: 2%;
+        display: block;
+    }
+}
+
+
+/* Small devices (landscape phones, less than 768px)*/
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    body {
+        font-size: 100%;
+    }
+    .adminBtn {
+        float: left;
+        margin: 2%;
+    }
+    .flexClass {
+        padding-top: 2%;
+        display: block;
+    }
+}
+
+
+/*Medium devices (tablets, less than 992px)*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        font-size: 100%;
+    }
+    h1 h2 h3 h4 h5 h6 p {
+        font-size: 80%;
+    }
+    h2 {
+        font-size: 80%;
+    }
+    h3 {
+        font-size: 80%;
+    }
+    h4 {
+        font-size: 80%;
+    }
+    h5 {
+        font-size: 80%;
+    }
+    h6 {
+        font-size: 80%;
+    }
+    .adminBtn {
+        float: left;
+        margin: 2%;
+    }
+    .flexClass {
+        padding-top: 2%;
+        display: block;
+    }
+}
+
+
+/* Large devices (desktops, less than 1200px) */
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    body {
+        font-size: 100%;
+    }
+    .adminBtn {
+        float: left;
+        margin: 2%;
+    }
+    .flexClass {
+        padding-top: 2%;
+        display: block;
+    }
+}
